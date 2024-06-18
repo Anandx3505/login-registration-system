@@ -10,7 +10,6 @@ private:
 
 public:
     User(const std::string& username, const std::string& passwordHash);
-
     const std::string& getUsername() const;
     const std::string& getPasswordHash() const;
 };
